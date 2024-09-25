@@ -13,11 +13,11 @@ flowchart TD
   J-->|Option Selected|B
   K-->|Option Selected|L[Game Closes]
 ```
-## Steps ==A-->C== 
+## Steps A-->C 
 User opens game and game chooses its number randomly from the determined range, user makes first guess.
-## Steps ==D-->G== 
+## Steps D-->G 
 Incorrect user inputs are taken and feedback is given before sending the user back to make a new input.
-## Steps ==H-->I== 
+## Steps H-->I 
 Correct user input is taken, game congratulates the user and then ends.
-## Steps ==J-->K== 
+## Steps J-->K 
 Ended game provides options to restart or close the program. User selection between the two steps is acted out.
